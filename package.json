@@ -1,0 +1,19 @@
+{
+  "name": "my-web-page",
+  "version": "1.0.0",
+  "description": "personal web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jburton8686/my-web-page.git"
+  },
+  "author": "JB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jburton8686/my-web-page/issues"
+  },
+  "homepage": "https://github.com/jburton8686/my-web-page#readme"
+}
