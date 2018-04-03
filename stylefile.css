@@ -51,10 +51,11 @@ p, li {
 /* || header layout */
 
 header {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   font-family: 'Cinzel Decorative', cursive;
   display: flex;
   flex-flow: row wrap;
+  border-collapse: collapse;
 }
 
 body > * {
@@ -84,6 +85,7 @@ nav {
   height: 50px;
   flex: 100%;
   display: flex;
+  border-collapse: collapse;
 }
 
 nav ul {
@@ -114,6 +116,7 @@ nav a, nav span {
 main {
   display: flex;
   padding: 1%;
+  border-collapse: collapse;
 }
 
 img {
@@ -146,7 +149,8 @@ aside a {
 }
 
 footer {
-  margin-top: 10px;
+  margin-top: 0px;
+  border-collapse: collapse;
 }
 [href="mailto:jburton8686@hotmail.com"] {
   font-size: 18px;
