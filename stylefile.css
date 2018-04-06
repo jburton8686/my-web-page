@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  width: 90%;
+  width: 93%;
   min-width: 800px;
   margin: 0 auto;
 }
@@ -18,12 +18,12 @@ body {
 
 h1, h2, h3 {
   font-family: 'Cinzel Decorative', cursive, Arial;
-  color: #2a2a2a;
+  color: whitesmoke;
 }
 
 p, input, li {
   font-family: 'Roboto Condensed', sans-serif, Arial;
-  color: #2a2a2a;
+  color: whitesmoke;
   line-height: 1.5;
 }
 
@@ -59,12 +59,12 @@ header {
 }
 
 body > * {
-  background-color: rgb(0, 255, 213);
+  background-color: rgb(0, 102, 255);
   padding: 1%;
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgba(0,255, 213);
+  background-color: rgba(0,102, 255);
   padding: 1%;
 }
 
@@ -110,7 +110,7 @@ nav a, nav span {
   line-height: 1.7;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
 
 }
 main {
@@ -158,14 +158,20 @@ footer {
 /* These styles will style our link
    in all states */
 [href="#"] {
-  color: blue;
+  color: whitesmoke;
   font-weight: bold;
 }
 
 /* We want visited links to be the same color
    as non visited links */
-[href="#"] :visited {
-  color: blue;
+[href="http://thewindandthewave.com/"] :visited {
+  color: whitesmoke;
+}
+
+[href="http://thewindandthewave.com/"]:hover,
+[href="http://thewindandthewave.com/"]:active,
+[href="http://thewindandthewave.com/"]:focus{
+  color: black;
 }
 
 /* We highlight the link when it is
@@ -178,14 +184,14 @@ footer {
   text-decoration: none;
 }
 [href="mailto:jburton8686@hotmail.com"] {
-  color: blue;
+  color: whitesmoke;
   font-weight: bold;
 }
 
 /* We want visited links to be the same color
    as non visited links */
    [href="mailto:jburton8686@hotmail.com"] :visited {
-  color: blue;
+  color: whitesmoke;
 }
 
 /* We highlight the link when it is
