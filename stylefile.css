@@ -5,11 +5,11 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: black;
+  background-color: steelblue;
 }
 
 body {
-  width: 93%;
+  width: 95%;
   min-width: 800px;
   margin: 0 auto;
 }
@@ -18,12 +18,12 @@ body {
 
 h1, h2, h3 {
   font-family: 'Cinzel Decorative', cursive, Arial;
-  color: whitesmoke;
+  color: black;
 }
 
-p, input, li {
+p, input, li, {
   font-family: 'Roboto Condensed', sans-serif, Arial;
-  color: whitesmoke;
+  color: rgba(245, 245, 245, 0);
   line-height: 1.5;
 }
 
@@ -59,12 +59,12 @@ header {
 }
 
 body > * {
-  background-color: rgb(0, 102, 255);
+  background-color: black;
   padding: 1%;
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgba(0,102, 255);
+  background-color: whitesmoke;
   padding: 1%;
 }
 
@@ -110,7 +110,7 @@ nav a, nav span {
   line-height: 1.7;
   text-transform: uppercase;
   text-decoration: none;
-  color: whitesmoke;
+  color: black;
 
 }
 main {
@@ -123,7 +123,7 @@ img {
   border-radius: 8px;
   display: block;
   padding: 1%;
-  margin-top: 13px;
+  margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 98%;
@@ -158,14 +158,14 @@ footer {
 /* These styles will style our link
    in all states */
 [href="#"] {
-  color: whitesmoke;
+  color: black;
   font-weight: bold;
 }
 
 /* We want visited links to be the same color
    as non visited links */
 [href="http://thewindandthewave.com/"] :visited {
-  color: whitesmoke;
+  color: black;
 }
 
 [href="http://thewindandthewave.com/"]:hover,
@@ -184,14 +184,14 @@ footer {
   text-decoration: none;
 }
 [href="mailto:jburton8686@hotmail.com"] {
-  color: whitesmoke;
+  color: black;
   font-weight: bold;
 }
 
 /* We want visited links to be the same color
    as non visited links */
    [href="mailto:jburton8686@hotmail.com"] :visited {
-  color: whitesmoke;
+  color: black;
 }
 
 /* We highlight the link when it is
